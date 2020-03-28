@@ -1,0 +1,86 @@
+body {
+  text-transform: capitalize;
+}
+div.container {
+  width: 50%;
+  margin: 0 auto;
+  overflow: auto;
+}
+button, .button {
+  padding: 5px 20px;
+  background-color:  #40A0D8;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover, .button:hover {
+  background-color: #304D6D;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* header  304D6D*/
+div.header {
+  border-bottom: 3px #f4f4f4 solid;
+}
+div.header h1 {
+  color: #40A0D8;
+  margin-left: 20px;
+}
+div.header li {
+  list-style: none;
+  float: right;
+  display: inline;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+div.header a {
+  text-decoration: none;
+  color: #40A0D8;
+}
+div.header a:hover,a:active {
+  color: #304D6D;
+}
+
+/*front page */
+div.main {
+  background-color: #f4f4f4;
+  padding: 30px;
+  margin: 30px auto;
+}
+div.main select {
+  height: 5%;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+div.detailes {
+  margin: 30px auto;
+}
+
+/* create page */
+form.create, form.edit {
+  margin: 20px;
+  padding: 20px 0;
+}
+div.create, div.edit {
+  margin-bottom: 10px;
+}
+
+div.create input.create,select.create,textarea.create,
+div.edit input.edit,select.edit,textarea.edit {
+  height: 5%;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px #40A0D8 solid;
+  margin-top: 5px;
+}
+
+/* footer */
+footer {
+  border-top: 3px #f4f4f4 solid;
+  padding: 20px;
+  align-items: center;
+}
